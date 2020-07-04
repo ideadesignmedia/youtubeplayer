@@ -412,7 +412,8 @@ class YouTube2 extends HTMLElement{
             <div id="holdcircle" style="margin-bottom: 100px;"></div>
         </div>`
         setTimeout(() => {
-            this.fillPopular() 
+            this.fillPopular()
+            this.checkClicks()
         }, 400)
         let yt = this.shadow.querySelector('#yt')
         var youtube = bodymovin.loadAnimation({
