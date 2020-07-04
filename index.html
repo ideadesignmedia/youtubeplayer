@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"><p class="no-js">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <p class="no-js">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"><p class="no-js">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Youtube Player</title>
+        <meta name="description" content="Influenced links allow you to gather advanced analytic data all in one place. Use fast, high converting links now!">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <script>
+            loadLiteral = (elem, data, template) => {
+                if (elem && data && typeof template === 'function') {
+                    for (let i = 0; i < data.length; i++){
+                        elem.innerHTML += template(data[i])
+                    }
+                } else {
+                    throw new Error('FAILED TO LOAD LITERAL OBJECT')
+                }
+            }
+        </script>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            body {
+                max-width: 100%;
+                width: 100%;
+                padding-bottom: 70px;
+                overflow-x: hidden;
+            }
+            youtube-2 {
+                max-width: 100%;
+                width: 100%;
+            }
+        </style>
+        <script src="/static/gin/lottie.js"></script>
+        <script src="/static/youtube.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            try {
+                let that = document.createElement('you-tube2')
+                document.querySelector('body').append(that)
+                that.setAttribute('page', '/channel/UCJ05uCucbcuCivAjqqBDTvw')
+            } catch(e){
+                alert(e)
+            }
+        })
+    </script>
+</html>
